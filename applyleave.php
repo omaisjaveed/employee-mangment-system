@@ -6,6 +6,7 @@
 	$employee = mysqli_fetch_array($result);
 	$empName = ($employee['firstName']);
 	//echo "$id";
+	//echo "$id";
 ?>
 
 <html>
