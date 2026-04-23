@@ -12,9 +12,6 @@ $sql = "SELECT * from `alogin` WHERE email = '$email' AND password = '$password'
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows($result) == 1){
-	
-
-	//echo ("logged in");
 	header("Location: ..//aloginwel.php");
 }
 
