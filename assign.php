@@ -95,7 +95,7 @@
     <script src="vendor/datepicker/moment.min.js"></script>
     <script src="vendor/datepicker/daterangepicker.js"></script>
 
-    <!-- Main JS-->
+    <!-- Main JS File-->
     <script src="js/global.js"></script>
 
 </body>
