@@ -7,7 +7,6 @@ $password = $_POST['pwd'];
 
 $sql = "SELECT * from `alogin` WHERE email = '$email' AND password = '$password'";
 
-//echo "$sql";
 
 $result = mysqli_query($conn, $sql);
 
